@@ -80,21 +80,30 @@ nav a:hover {
 .ndream{
 
     width:100%;;
-    height: 600px;
+    height: 150px;
     background-color: blanchedalmond;
     /*margin-bottom: 25px;*/
   
 }
 .golla {
+    margin: 100px 0px;
     width: 100%;
-    height: 650px;
-
-    
+    height: 130px;
+    border-bottom: 5px solid saddlebrown;
 }
+
+
+/*.golla1 {
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    
+} */
 
 .n{
     width: 100%;
-    height: 500px;
+    height: 100px;
     padding: 0px 0px;
 }
 
@@ -111,32 +120,42 @@ nav a:hover {
 
 .title{
 
-    margin: 50px 43%;
+    margin: 30px 32%;
     margin-top: 0;
     font-size: 35px;
+    background-color: white;
+    width: 450px;
+    height: 30px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: 5px solid saddlebrown;
+    position: absolute;
+    overflow:visible;
+    z-index: 1;
   
 }
 
 .mark{
-    width: 80%;
-    height: 950px;
-    background-color:white;
+    width: 85%;
+    height: 100%;
+    background-color: /*rgb(224, 196, 170)*/ beige;
+    margin-left: 105px;
     border-radius: 25px;
-    margin-left: 135px;
-    margin-bottom: 75px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 5px solid rgb(128, 221, 128);
+    border: 5px solid saddlebrown;
+    margin: 100px;
+    position: relative;
+    margin-bottom: 0px;
 }
 
 .mark1 {
     width: 90%;
     height: 500px;
     background-color: rgb(230, 230, 188);
-    border-radius: 25px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
     margin:50px;
+    border-radius: 25px;
+    border: 5px solid saddlebrown;
+
 }
 
 
@@ -152,16 +171,148 @@ nav a:hover {
     height: 100%;
 }
 
+.img_2
+{
+
+    width: 100%;
+    height: 100%;
+}
+.epta{
+
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(151, 120, 93);
+    border-radius: 19px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+
+}
+
+.desc{
+
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color:rgb(230, 230, 188);
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+
+}
 .p1{
 
     width:85%;
-    height: 250px;;
+    height: 100px;;
     line-height: 30px;
     color: black;
-    background-color: whitesmoke;
+    background-color: rgb(230, 230, 188);
     margin: 30px 50px;
     padding: 30px;
     border-radius: 30px;
     text-align: center;
-    border: 5px solid rgb(128, 221, 128);
+    border: 5px solid  saddlebrown;
+}
+
+.p2{
+
+    width:89%;
+    height: 75%;;
+    line-height: 30px;
+    color: black;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: justify;
+   
+}
+
+.footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(49, 40, 32);
+    padding: 50px 5%;
+    padding-bottom: 100px;
+    color: whitesmoke;
+    display: flex /*para dise by side */;
+    font-size: large;
+    
+
+}
+
+.footer div{
+
+    text-align: center;
+}
+
+.col2{
+
+    flex-grow: 3 /* para ang space nga bul on times 2*/;
+
+}
+
+.footer div h3{
+
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: small;
+    
+}
+
+.col1{
+
+    margin-left: 100px;
+  
+}
+.col2{
+
+  
+    margin-left:90px;;
+  
+}
+.col3{
+
+    margin-right: 200px;
+}
+.col1 a{
+
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.col3 p{
+
+    font-size: small;
+}
+
+form input{
+
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom:20px ;
+    outline: none;
+    border: none;
+}
+
+form button{
+
+    width: 220px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    outline: none;
+    border: 2px solid whitesmoke;
+    background: transparent;
+    font-size: 12px;
+    cursor: pointer ;
+    color: whitesmoke;
 }
