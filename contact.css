@@ -80,21 +80,30 @@ nav a:hover {
 .ndream{
 
     width:100%;;
-    height: 600px;
+    height: 150px;
     background-color: blanchedalmond;
     /*margin-bottom: 25px;*/
   
 }
 .golla {
+    margin: 100px 0px;
     width: 100%;
-    height: 650px;
-
-    
+    height: 130px;
+    border-bottom: 5px solid saddlebrown;
 }
+
+
+/*.golla1 {
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    
+} */
 
 .n{
     width: 100%;
-    height: 500px;
+    height: 100px;
     padding: 0px 0px;
 }
 
@@ -111,9 +120,18 @@ nav a:hover {
 
 .title{
 
-    margin: 50px 40%;
+    margin: 50px 38%;
     margin-top: 0;
     font-size: 35px;
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: 5px solid saddlebrown;
+    overflow:visible;
+    z-index: 1;
   
 }
 
@@ -124,6 +142,7 @@ nav a:hover {
     border-radius: 25px;
     margin-left: 135px;
     margin-bottom: 75px;
+    border: 5px solid saddlebrown;
 }
 
 .mark1 {
@@ -196,7 +215,11 @@ nav a:hover {
     height: 50px; width: 90%;
     margin: 40px 70px;
 }
-
+.contact img:hover {
+    
+    background-color: beige;
+    
+}
 
 .img {
 
@@ -205,4 +228,92 @@ nav a:hover {
     text-align: justify;
     padding: 0px 20px;
     margin-left: 22px;
+}
+
+.footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(49, 40, 32);
+    padding: 50px 5%;
+    padding-bottom: 100px;
+    color: whitesmoke;
+    display: flex /*para dise by side */;
+    font-size: large;
+    
+
+}
+
+.footer div{
+
+    text-align: center;
+}
+
+.col2{
+
+    flex-grow: 3 /* para ang space nga bul on times 2*/;
+
+}
+
+.footer div h3{
+
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: small;
+    
+}
+
+.col1{
+
+    margin-left: 100px;
+  
+}
+.col2{
+
+  
+    margin-left:90px;;
+  
+}
+.col3{
+
+    margin-right: 200px;
+}
+.col1 a{
+
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.col3 p{
+
+    font-size: small;
+}
+
+form input{
+
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom:20px ;
+    outline: none;
+    border: none;
+}
+
+form button{
+
+    width: 220px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    outline: none;
+    border: 2px solid whitesmoke;
+    background: transparent;
+    font-size: 12px;
+    cursor: pointer ;
+    color: whitesmoke;
 }
