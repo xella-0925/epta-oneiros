@@ -1,0 +1,318 @@
+*{
+    font-family:"brice-light_expanded" ;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "brice-black";
+    src: url('Brice/Brice-Black.otf')
+  } 
+
+@font-face {
+    font-family: "brice-light_expanded";
+    src: url('Brice/Brice-LightExpanded.otf');
+}
+
+  .body{
+
+    padding: 0px;
+    background-color: rgba(154, 231, 236, 0.247);
+}
+
+.header{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(90, 65, 40);
+    /*border-top-right-radius: 30px;
+    border-top-left-radius: 30px;*/
+    position: absolute;
+    float: none;
+    opacity: 80%;
+   
+}
+
+
+.n{
+    width: 100%;
+    height: 500px;
+    padding: 0px 0px;
+}
+
+nav .logo {
+
+    width: 100px;
+    height: 100px;
+    margin-right:700px ;
+  
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+nav a:hover {
+
+    color:rgb(226, 204, 142);
+}
+.nav{
+    width: 100;
+    position:absolute;
+    top: 0;
+    left:0;
+    padding:0px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    font-size: small;
+    
+ 
+}
+.ndream{
+
+    width:100%;;
+    height: 150px;
+    background-color: blanchedalmond;
+    /*margin-bottom: 25px;*/
+  
+}
+.golla {
+    margin: 100px 0px;
+    width: 100%;
+    height: 130px;
+    border-bottom: 5px solid saddlebrown;
+}
+
+
+/*.golla1 {
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    
+} */
+
+.n{
+    width: 100%;
+    height: 100px;
+    padding: 0px 0px;
+}
+
+.members_c{
+
+    width: 100%;
+    height: auto;
+    background-color: beige;
+    padding-top: 175px;
+    padding-bottom: 100px;
+    align-items: center;
+    
+}
+
+.title{
+
+    margin: 30px 32%;
+    margin-top: 0;
+    font-size: 35px;
+    background-color: white;
+    width: 450px;
+    height: 30px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: 5px solid saddlebrown;
+    position: absolute;
+    overflow:visible;
+    z-index: 1;
+  
+}
+
+.mark{
+    width: 85%;
+    height: 100%;
+    background-color: /*rgb(224, 196, 170)*/ beige;
+    margin-left: 105px;
+    border-radius: 25px;
+    border: 5px solid saddlebrown;
+    margin: 100px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.mark1 {
+    width: 90%;
+    height: 500px;
+    background-color: rgb(230, 230, 188);
+    margin:50px;
+    border-radius: 25px;
+    border: 5px solid saddlebrown;
+
+}
+
+
+.th{
+
+    line-height: 20px;
+}
+
+.img_1
+{
+
+    width: 100%;
+    height: 100%;
+}
+
+.img_2
+{
+
+    width: 100%;
+    height: 100%;
+}
+.epta{
+
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(151, 120, 93);
+    border-radius: 19px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+
+}
+
+.desc{
+
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color:rgb(230, 230, 188);
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+
+}
+.p1{
+
+    width:85%;
+    height: 100px;;
+    line-height: 30px;
+    color: black;
+    background-color: rgb(230, 230, 188);
+    margin: 30px 50px;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    border: 5px solid  saddlebrown;
+}
+
+.p2{
+
+    width:89%;
+    height: 75%;;
+    line-height: 30px;
+    color: black;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: justify;
+   
+}
+
+.footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(49, 40, 32);
+    padding: 50px 5%;
+    padding-bottom: 100px;
+    color: whitesmoke;
+    display: flex /*para dise by side */;
+    font-size: large;
+    
+
+}
+
+.footer div{
+
+    text-align: center;
+}
+
+.col2{
+
+    flex-grow: 3 /* para ang space nga bul on times 2*/;
+
+}
+
+.footer div h3{
+
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: small;
+    
+}
+
+.col1{
+
+    margin-left: 100px;
+  
+}
+.col2{
+
+  
+    margin-left:90px;;
+  
+}
+.col3{
+
+    margin-right: 200px;
+}
+.col1 a{
+
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.col3 p{
+
+    font-size: small;
+}
+
+form input{
+
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom:20px ;
+    outline: none;
+    border: none;
+}
+
+form button{
+
+    width: 220px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    outline: none;
+    border: 2px solid whitesmoke;
+    background: transparent;
+    font-size: 12px;
+    cursor: pointer ;
+    color: whitesmoke;
+}
